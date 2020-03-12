@@ -1,0 +1,163 @@
+/* ============================== */
+/* BASIC SETUP */
+/* ============================== */
+
+body {
+    font-family: 'Titillium Web', sans-serif;
+    background: ;
+}
+
+::selection {
+    background-color: black;
+    color: red;
+}
+
+.navbar {
+    box-shadow: 2px 2px 5px #3292a6;
+    background: #fff;
+    opacity: 0.9;
+}
+
+.nav-item {
+    font-size: 1.4rem;
+    padding-right: 20px;
+}
+
+.nav-item:last-child {
+    padding-right: 0;
+}
+
+.navbar .nav-item .nav-link {
+    color: #252525;
+}
+
+.navbar .nav-item .nav-link:hover {
+    color: #3292a6;
+}
+
+#showCase {
+    background: url(img/mountains.jpg) no-repeat;
+    background-size: cover;
+    max-height: 800px;
+}
+
+#showCase .btn {
+    border-radius: 0px;
+    margin-top: 2rem;
+}
+
+.homeInner {
+    padding: 100px 0px 0px 0px;
+}
+
+.darkOverlay {
+    background: rgba(4, 82, 95, 0.31);
+    max-height: 800px;
+}
+
+#formSection form input {
+    border: 2px solid #333;
+    border-radius: 0px;
+}
+
+#formSection .btn {
+    border-radius: 0px;
+}
+
+#author .card {
+    border:0;
+    margin-top: 100px;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 9px 9px 18px #a8a8a8,
+        -9px -9px 18px #ffffff;
+}
+
+.card{
+    border:0;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: 9px 9px 18px #a8a8a8,
+        -9px -9px 18px #ffffff;
+}
+input,textarea{
+    border:0;
+    border-radius: 5px;
+    background: #ffffff;
+    box-shadow: inset 3px 3px 8px #a8a8a8,
+       inset -3px -3px 8px #ffffff;
+}
+
+
+
+/*NEUMORPHISM ICON*/
+.skb {
+    height: ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+}
+
+.neumorphism-1 {
+    margin: 15px;
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: -3px -3px 7px #ffffffb2, 3px 3px 5px #5E6879;
+
+
+}
+
+.neumorphism-1:hover {
+
+    height: 50px;
+    width: 50px;
+    background: #fff;
+    box-shadow: inset -3px -3px 7px #ffffffb0, inset 3px 3px 5px #5E6879;
+
+}
+
+
+.neumorphism-1 a {
+    text-decoration: none;
+    color: #333;
+}
+
+.neumorphism-1 i {
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+
+/*NEUMORPHISM ICON*/
+#contact img {
+    margin-top: 130px;
+}
+
+#author img {
+    margin-top: -50px
+}
+
+
+@media(min-width:992px) {
+    .skb .neumorphism-1 {
+        height: 40px;
+    }
+
+    .neumorphism-1 i {
+        padding-top: 12px;
+    }
+}
+
+@media(min-width:1200px) {
+    .skb .neumorphism-1 {
+        height: 50px;
+    }
+
+    .neumorphism-1 i {
+        padding-top: 15px;
+    }
+}
